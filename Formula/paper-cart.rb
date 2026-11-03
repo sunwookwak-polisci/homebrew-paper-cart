@@ -3,8 +3,8 @@
 class PaperCart < Formula
   desc "Follow journals you choose and keep the papers you mean to read"
   homepage "https://github.com/sunwookwak-polisci/Paper-Cart"
-  url "https://github.com/sunwookwak-polisci/Paper-Cart/releases/download/v0.1.4/paper_cart-0.1.4-py3-none-any.whl", using: :nounzip
-  sha256 "9606d8162660f4af5e750d30e23fe9e26ca5b681f0f1bfed6b8aaaca6167cab0"
+  url "https://github.com/sunwookwak-polisci/Paper-Cart/releases/download/v0.1.5/paper_cart-0.1.5-py3-none-any.whl", using: :nounzip
+  sha256 "5f29294a13e30dbed3f3568d40729feb57b0e86d5707339bfd7694eb31da24f5"
   license "MIT"
 
   depends_on "uv" => :build
