@@ -3,8 +3,8 @@
 class PaperCart < Formula
   desc "Follow journals you choose and keep the papers you mean to read"
   homepage "https://github.com/sunwookwak-polisci/Paper-Cart"
-  url "https://github.com/sunwookwak-polisci/Paper-Cart/releases/download/v0.1.6/paper_cart-0.1.6-py3-none-any.whl", using: :nounzip
-  sha256 "627cf2f77dc8f7dac1ee1a2a5dd4a4bad3c2d2b71592a8a22145a556d253fefc"
+  url "https://github.com/sunwookwak-polisci/Paper-Cart/releases/download/v0.1.7/paper_cart-0.1.7-py3-none-any.whl", using: :nounzip
+  sha256 "69a5e4e831e34f1ec0bcf2264a8a37d574c20295dc7fc9cefcbb6d86fcbd0398"
   license "MIT"
 
   depends_on "uv" => :build
@@ -51,8 +51,8 @@ class PaperCart < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl", using: :nounzip
-    sha256 "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775"
+    url "https://files.pythonhosted.org/packages/32/d1/a3652fe2c19134d0d15922177821d863cbd7e842d53a21bbe7e8e3a1b5ac/certifi-2026.10.23-py3-none-any.whl", using: :nounzip
+    sha256 "e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1"
   end
 
   resource "click" do
@@ -91,8 +91,8 @@ class PaperCart < Formula
   end
 
   resource "opentelemetry-api" do
-    url "https://files.pythonhosted.org/packages/44/b9/040d1a1c7836922828e6480cd2366bb8fe0ebf75b413d2bb51a9b0e7f78f/opentelemetry_api-1.45.0-py3-none-any.whl", using: :nounzip
-    sha256 "80e068aba7cd56c8b58512d6a36f8d25cb1dfaa0c0a4cc1c938ccf9f362d9cb3"
+    url "https://files.pythonhosted.org/packages/a9/2d/610db864d7513158cebb8f36cc88e67e73bd6c7aa1905ef18d89e1281c81/opentelemetry_api-1.45.2-py3-none-any.whl", using: :nounzip
+    sha256 "2cbd737377e710ee740d261c94e93fa0f08e6d037c18f17513cc0a2d94479a34"
   end
 
   resource "pydantic" do
